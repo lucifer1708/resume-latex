@@ -1,80 +1,50 @@
-\documentclass{resume} 
-\usepackage{hyperref}
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} 
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Sumit Dhiman} % Your name
-\address{Himachal Pradesh, India} 
-\address{+919015095573 \\ sd08012003@gmail.com \\ \href{https://sumitdhiman.live}{sumitdhiman.live} \\ \href{https://github.com/lucifer1708}{github/lucifer1708}}
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{CJKutf8}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{TLCresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+
+\author{\textbf{Sumit Dhiman}} 
+\def\phone{+91 90150 95573}
+\def\city{Hamirpur, Himachal Pradesh}
+\def\email{sd08012003@gmail.com}
+% blog edited in _header.tex
+\def\github{lucifer1708} % github username
+\def\LinkedIn{sumit-dhiman-20bce091} % linkedin.com/in/______
 
 \begin{document}
+\import{sections/}{_header}
+\vspace*{10pt}
 
-\begin{rSection}{Education}
+\section{Education}
+\vspace*{3pt}
+\hrule
+\import{sections/}{education}
+\vspace*{10pt}
 
+\section{Work Experience}
+\vspace*{3pt}
+\hrule
+\import{sections/}{experience}
+\vspace*{10pt}
 
-{\bf National Institute of Technology, Hamirpur} \hfill {\em Dec. 2020 - Present} 
-\\ Bachelor of Technology \hfill { }
+\section{Project}
+\vspace*{3pt}
+\hrule
+\vspace*{3pt}
+\import{sections/}{project}
+\vspace*{10pt}
 
-{\bf Govt. Sr. Sec. School, Jol Sapper} \hfill {\em March 2019 - March 2020} 
-\\ Intermediate \hfill { Overall Percentage: 88.6\%}
-\end{rSection}
-
-\begin{rSection}{Projects}
-{\bf Fullstack Website for a Cryptic Hunt event}
-\\ - This website is made in Django, Jinja templates, MySQL, etc. 
-\\ - It has many functionalities like Login-Signup, Email confirmation, Leaderboard, Hunt dashboard, etc.   
-\\ - More than 650 people registered and 500 people were playing at the same time.
-
-{\bf Backend for Techfest website}
-\\ - This website was made for our Society TechFest named Prodyogiki.
-\\ - Its backend was made with Django framework and tools like celery were also used.
-
-
-{\bf Fullstack website for Interview Registration and management}
-\\ - This website was made for making our juniors interview process easy.
-\\ - Technologie used: Django, HTML, CSS, JS, etc.
-\\ - more than 450 students registered in one batch of college.
-
-
-\end{rSection}
-
-\begin{rSection}{Technical Skills}
-
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages \ & C, C++, Python, Java, Lua, Shell \\
-  Technologies & HTML5, CSS3, Django, Flask,  {\LaTeX}\\
-Tools & Vim, Shell, Linux, Postman \\
-Databases & MySql, Sqlite\\
-Cloud Technologies & Azure\\
-Version Control & Github, Git
-\end{tabular}
-
-\end{rSection}
-% 
-% 
-%  \item Created classification models for e-commerce websites using neural networks.
-% \newpage
-\begin{rSection}{Work Experience}
-\begin{rSubsection}{Indian Society For Technical Education, NIT Hamirpur}{Jan 2021 - present}{Cordinator}{}
- \item Worked as Cordinator and Technical Head in a event named HULT Prize which is an event of United Nations.
- \item Organized and managed various event Like Cryptic hunt, Techfest, Conventions and many more.
-\end{rSubsection}
-% ----
-\end{rSection}
-
-
-% \end{rSection}
-% \begin{rSection}{Research Profile}
-%  \item Student President, Technology and Research, IIT Gandhinagar
-%  \item Publication : ABC, IOT IEEE Transactions (Impact Factor: 9.3, Status: Published)
-%  \item Student President, Technology and Research, IIT Gandhinagar
-%  \item Publication : ABC, IOT IEEE Transactions (Impact Factor: 9.3, Status: Published)
-%  \item Student President, Technology and Research, IIT Gandhinagar
-%  \item Publication : ABC, IOT IEEE Transactions (Impact Factor: 9.3, Status: Published)
-% \end{rSection}
-
-
-
-
+\section{Skills}
+\vspace*{3pt}
+\hrule
+\vspace*{3pt}
+\import{sections/}{skills}
+\vspace*{10pt}
 
 \end{document}
