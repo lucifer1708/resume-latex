@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.1.23)  26 JAN 2023 15:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.1.23)  28 JAN 2023 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -731,7 +731,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 31.
+(hyperref)                removing `\hfill' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hfill' on input line 42.
 
 ) (./sections/skills.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -747,16 +751,16 @@ Overfull \hbox (6.7556pt too wide) in paragraph at lines 3--53
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: B087D02E914CE8C6951F79813D9C3401;1990.
+(rerunfilecheck)             Checksum: 3A9A516E95A5B9FF56C655825B7521BD;2139.
  ) 
 Here is how much of TeX's memory you used:
- 15052 strings out of 478238
- 238948 string characters out of 5850456
- 595405 words of memory out of 5000000
- 32991 multiletter control sequences out of 15000+600000
+ 15054 strings out of 478238
+ 238978 string characters out of 5850456
+ 596405 words of memory out of 5000000
+ 32992 multiletter control sequences out of 15000+600000
  476249 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 140i,11n,134p,370b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 140i,11n,134p,370b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/t
 exmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/font
 s/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/
@@ -765,10 +769,10 @@ cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc12
 are/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/
 fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/cm-super/sfti1000.pfb>
-Output written on resume.pdf (1 page, 121953 bytes).
+Output written on resume.pdf (1 page, 123747 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
+ 14 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

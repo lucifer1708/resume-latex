@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1674726042 "resume.tex" "resume.pdf" "resume" 1674726043
+["pdflatex"] 1674882597 "resume.tex" "resume.pdf" "resume" 1674882598
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1650183167 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1650183167 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -113,14 +113,14 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1674470091 4278762 af3ac1370db81a450c1118eabf1fe718 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1674470067 2927664 1e833dead2e2c49cc2a085cb42b6b886 ""
   "TLCresume.sty" 1674242673 1807 cf9f41b8048b23bc2a641e9cf236a92f ""
-  "resume.aux" 1674726043 2557 37ce71731efa289cf03ad19934261947 "pdflatex"
-  "resume.out" 1674726043 1990 b087d02e914ce8c6951f79813d9c3401 "pdflatex"
-  "resume.tex" 1674469906 957 634b2cb5cdd5a877b75218f6c953c6b2 ""
+  "resume.aux" 1674882597 2825 980a6b2223ed4b3d0c66758fe92a0834 "pdflatex"
+  "resume.out" 1674882597 2139 3a9a516e95a5b9ff56c655825b7521bd "pdflatex"
+  "resume.tex" 1674881893 952 a482f6452df2e859b25100d3c7186858 ""
   "sections/_header.tex" 1674242673 704 d5aa63f5257f85cb7ced7d81a2e1b94e ""
-  "sections/education.tex" 1674470158 313 1f69acbb3745733b015dde3a0f29ea6d ""
-  "sections/experience.tex" 1674242673 1040 1b332b3501ca568a59cc1737194a0aff ""
-  "sections/project.tex" 1674726042 1891 ee69c7cc0c9bbca923e77e0bdc577ff7 ""
-  "sections/skills.tex" 1674724971 605 aa4fba2abcc0ace5614dec7834c6d526 ""
+  "sections/education.tex" 1674882596 328 0100a56b1328ae19de37626722d05598 ""
+  "sections/experience.tex" 1674882546 1026 5e7805b4f7578d2beb4e1296d3ba3450 ""
+  "sections/project.tex" 1674882527 2367 6c65cdb1c6ca4767bbcd219d9a5ed114 ""
+  "sections/skills.tex" 1674881826 543 3f40ae32fa2b576681bc5f4e066ced8f ""
   (generated)
   "resume.aux"
   "resume.log"
